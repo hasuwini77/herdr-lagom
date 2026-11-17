@@ -18,7 +18,7 @@ The agents in these pictures are stand-ins made by `tools/demo.sh`: plain shells
 
 ## Install
 
-Ask your agent in Herdr to add `herdr.dev/layouts/hasuwini77/herdr-lagom`, or copy by hand into `~/.config/herdr-app/`:
+Ask your agent in Herdr to add `github.com/hasuwini77/herdr-lagom`, or copy by hand into `~/.config/herdr-app/`:
 
 ```sh
 cp -r layouts mods themes backgrounds ~/.config/herdr-app/

@@ -25,7 +25,7 @@ cp -r layouts mods themes backgrounds ~/.config/herdr-app/
 herdr-app do layout.switch --name lagom
 ```
 
-The layout needs the `themes/` folder too: without it Herdr refuses the layout. Your own layout stays as it was; `ctrl-shift-l` switches back.
+The layout needs the `themes/` folder too: without it Herdr refuses the layout. Your own layout stays as it was; `cmd-shift-l` on macOS (`ctrl-shift-l` on Windows and Linux) cycles back to it.
 
 Lagom runs one program, and only when you pick a wallpaper of your own: Python, to measure how bright the picture is. It writes one file: the Lagom layout, to store the theme and wallpaper you picked.
 
@@ -48,6 +48,6 @@ None are bound by default. Add any of these to `keys.json`:
 | `tools/demo.sh` | fills the window with stand-in agents for a screenshot |
 | `RECIPE.md` | the brief to build Lagom from scratch |
 
-Seen working on the Herdr App 0.1.15 Windows build with terminals in WSL, and installed on an empty home on the 0.1.14 Linux build. macOS is untested.
+Seen working on the Herdr App 0.1.15 Windows build with terminals in WSL, and installed on an empty home on the 0.1.14 Linux build. On macOS (Herdr App 0.1.18, Apple silicon) the bar, Next blocked and the Look dialog work.
 
 MIT. Made by Edwin.
